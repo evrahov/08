@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,700i');
+body{
+	margin: 0;
+}
+.ev-container{
+	background-color: #ffffff;
+	box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+
+	margin: 100px 100px 100px 100px ;
+}
+h1{
+	font-family: PlayfairDisplay;
+	color: #171717;
+	font-size: 42px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	text-align: left;
+	padding: 140px 0px 15px 123px;
+}
+p:first-letter{
+	font-family: PlayfairDisplay;
+	color: #171717;
+	font-size: 110px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 34px; /* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	padding: 212px 10px 10px 0px;
+
+}
+.ev-cc{
+
+	font-family: Lato;
+	color: #171717;
+	font-size: 24px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 34px; /* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	padding: 39px 121px 217px 121px;
+
+	vertical-align: text-top; /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+
+}
+.ev-ds{
+	border-width: 2px;
+	border-color: #eaa258;
+	border-style: solid;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #ffffff;
+	padding:35px 130px;
+	font-size: 28px;
+	color: #eaa258;
+
+
+}
+.ev-ss{
+	font-size: 35px;
+}
+.ev-ss::before{
+	content: "“"
+
+
+}
